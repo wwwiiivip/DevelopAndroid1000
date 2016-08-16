@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/fragment_two_list_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/def_head"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:id="@+id/fragment_two_list_gname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="穿越火线:枪战王者"
+        android:layout_toRightOf="@id/fragment_two_list_img"
+        android:layout_alignTop="@id/fragment_two_list_img"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/fragment_two_list_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="类型:射击空战"
+        android:textColor="#d5d5d5"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/fragment_two_list_img"
+        android:layout_toEndOf="@+id/fragment_two_list_img" />
+
+    <TextView
+        android:id="@+id/fragment_two_list_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="大小:255M"
+        android:layout_alignBottom="@id/fragment_two_list_img"
+        android:textColor="#d5d5d5"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/fragment_two_list_img" />
+    <TextView
+        android:id="@+id/fragment_two_list_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13653"
+        android:textSize="18sp"
+        android:layout_toLeftOf="@+id/fragment_two_list_view_right_tv"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/colorPink"/>
+    <TextView
+        android:id="@id/fragment_two_list_view_right_tv"
+        android:layout_alignParentRight="true"
+        android:text="人在玩"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorGray"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/fragment_one_list_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/def_head"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:id="@+id/fragment_one_list_gname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="逍遥西游2"
+        android:layout_toRightOf="@id/fragment_one_list_img"
+        android:layout_alignTop="@id/fragment_one_list_img"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/fragment_one_list_companyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="运营商:武汉游侠精灵科技有限公司"
+        android:textColor="#d5d5d5"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/fragment_one_list_img"
+        android:layout_toEndOf="@+id/fragment_one_list_img" />
+
+    <TextView
+        android:id="@+id/fragment_one_list_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="时间:2016-6-15"
+        android:layout_alignBottom="@id/fragment_one_list_img"
+        android:textColor="#d5d5d5"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/fragment_one_list_img" />
+    <Button
+        android:id="@+id/fragment_one_list_button"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
+        android:text="查看"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/search_btn_selector"
+        android:background="#fd7472"/>
+
+</RelativeLayout>
